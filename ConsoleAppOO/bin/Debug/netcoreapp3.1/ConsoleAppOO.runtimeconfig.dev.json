@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\albuq\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\albuq\\.nuget\\packages"
+    ]
+  }
+}

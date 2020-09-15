@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sJ6XXRKmv/1hqHIpynAkL0ZE/DZqJ2yI4NFc8Jc9DxGFAaGPDr/i8cThOrOrAPTZJKE43/RKs3Fbp2MglTqh7g==",
+  "success": true,
+  "projectFilePath": "D:\\ConsoleAppOO\\ConsoleAppOO\\ConsoleAppOO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\heitor.santos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
