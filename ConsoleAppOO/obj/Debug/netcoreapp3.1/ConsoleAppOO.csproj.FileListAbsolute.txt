@@ -9,3 +9,16 @@ C:\Users\albuq\source\repos\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\Co
 C:\Users\albuq\source\repos\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.AssemblyInfo.cs
 C:\Users\albuq\source\repos\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.dll
 C:\Users\albuq\source\repos\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.pdb
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\bin\Debug\netcoreapp3.1\ConsoleAppOO.exe
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\bin\Debug\netcoreapp3.1\ConsoleAppOO.deps.json
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\bin\Debug\netcoreapp3.1\ConsoleAppOO.runtimeconfig.json
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\bin\Debug\netcoreapp3.1\ConsoleAppOO.runtimeconfig.dev.json
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\bin\Debug\netcoreapp3.1\ConsoleAppOO.dll
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\bin\Debug\netcoreapp3.1\ConsoleAppOO.pdb
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.csprojAssemblyReference.cache
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.AssemblyInfoInputs.cache
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.AssemblyInfo.cs
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.csproj.CoreCompileInputs.cache
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.dll
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.pdb
+C:\Repositorios\disciplinaProjeto\ConsoleAppOO\ConsoleAppOO\obj\Debug\netcoreapp3.1\ConsoleAppOO.genruntimeconfig.cache
