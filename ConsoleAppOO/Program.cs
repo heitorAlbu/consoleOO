@@ -132,21 +132,28 @@ namespace ConsoleAppOO
                             {
                                 Console.WriteLine(item.getNome() + ", ( " + item.getNumeroPartido() + " )");
                             }
-
                             var escolhaVoto = Convert.ToInt32(Console.ReadLine());
-                            if (!listaCandidato.Select(p => p.getNumeroPartido()).Contains(escolhaVoto))
+                            if (escolhaVoto == 0)
                             {
-                                throw new Exception();
+                                repositorio.incrementarBrancos();
+                                Console.WriteLine("voto BRANCO!!");
+                                Console.ReadKey();
                             }
-
-
-                            listaCandidato.Where(p => p.getNumeroPartido() == escolhaVoto).FirstOrDefault().incrementarVoto();
-                            //candidato.incrementarVoto();
-                            Console.WriteLine("voto computado com sucesso!!");
-                            Console.ReadKey();
-
+                            else if (!listaCandidato.Select(p => p.getNumeroPartido()).Contains(escolhaVoto))
+                            {
+                                repositorio.incrementarNulos();
+                                Console.WriteLine("voto NULO!!");
+                                Console.ReadKey();
+                                //throw new Exception();
+                            }
+                            else
+                            {
+                                listaCandidato.Where(p => p.getNumeroPartido() == escolhaVoto).FirstOrDefault().incrementarVoto();
+                                //candidato.incrementarVoto();
+                                Console.WriteLine("voto computado com sucesso!!");
+                                Console.ReadKey();
+                            }
                             break;
-
                         }
                         catch (Exception ex)
                         {
@@ -164,6 +171,8 @@ namespace ConsoleAppOO
                             Console.WriteLine(resultado);
                             posicao++;
                         }
+                        Console.WriteLine("Brancos : " + repositorio.getQtdBrancos());
+                        Console.WriteLine("Nulos : " + repositorio.getQtdNulos());
                         Console.ReadKey();
                         break;
 

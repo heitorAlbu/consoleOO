@@ -1,8 +1,6 @@
 ﻿using ConsoleAppOO.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace ConsoleAppOO.Repositorio
 {
@@ -11,6 +9,10 @@ namespace ConsoleAppOO.Repositorio
 
         private List<Pessoa> ListaPessoas { get; set; }
         private List<Candidato> ListaCandidato { get; set; }
+
+        private int QtdBrancos { get; set; }
+
+        private int QtdNulos { get; set; }
         public Repository()
         {
             this.ListaCandidato = new List<Candidato>();
@@ -24,6 +26,9 @@ namespace ConsoleAppOO.Repositorio
             this.ListaPessoas.Add(p2);
             this.ListaPessoas.Add(p3);
             this.ListaPessoas.Add(p4);
+            QtdBrancos = 0;
+            QtdNulos = 0;
+
         }
 
 
@@ -38,7 +43,7 @@ namespace ConsoleAppOO.Repositorio
         }
 
 
-        public List<Pessoa> adicionarPessoa(Pessoa pessoa) 
+        public List<Pessoa> adicionarPessoa(Pessoa pessoa)
         {
             this.ListaPessoas.Add(pessoa);
             return this.ListaPessoas;
@@ -55,8 +60,22 @@ namespace ConsoleAppOO.Repositorio
             pessoa.IncrementarIdade();
             return pessoa;
         }
-
-
+        public int getQtdBrancos()
+        {
+            return this.QtdBrancos;
+        }
+        public int getQtdNulos()
+        {
+            return this.QtdNulos;
+        }
+        public void incrementarBrancos()
+        {
+            this.QtdBrancos++;
+        }
+        public void incrementarNulos()
+        {
+            this.QtdNulos++;
+        }
 
     }
 }
